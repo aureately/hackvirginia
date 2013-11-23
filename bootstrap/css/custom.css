@@ -1,0 +1,61 @@
+body {
+	font-size: 9pt;
+}
+
+#logo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+
+.img-responsive {
+	text-align: center;
+	margin: auto;
+}
+
+.tagline {
+	margin: auto;
+	font-size: 90%;
+}
+
+#locator {
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	width: 90%;
+}
+
+#okay {
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	margin-top: 10%;
+	margin-bottom: 12%;
+}
+
+#okay .btn {
+	background-color: rgb(215,116,40);
+	border-color: rgb(214,144,411);
+}
+
+.form-control {
+	font-size: 9pt;
+}
+
+#map {
+	background-color: #E0E0E0;
+	width: inherit;
+	height: 200px;
+}
+
+.mapholder {
+	width: 100%;
+	margin-bottom: 12%;
+}
+
+address {
+	margin-bottom: 0;
+}
