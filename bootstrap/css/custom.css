@@ -77,16 +77,42 @@ address {
 	font-size: 92%;
 }
 
+.results {
+	clear: both;
+}
+
 h4 {
 	font-size: 13pt;
 }
 
 .info {
-	background-color: #EDEDED;
+	margin: 0;
+	width: 84%;
+	float: left;
+	font-style: italic;
+	font-size: 8pt;
+	padding-top: 1.5%;
 }
 
-.info p {
-	width: 80%;
-	padding-left: 4%;
-	padding-right: 4%;
+.retry {
+	float: left;
+	width: 16%;
+}
+
+.searchresults {
+	width: 100%;
+	height: auto;
+	clear: both;
+	margin: 0;
+	padding: 4%;
+	background-color: #F7F7F7;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.searchresults ul li a, .searchresults ul li a:visited {
+    opacity: 0.2;
+}
+.searchresults ul li a:hover {
+    opacity: 0.7;
 }
