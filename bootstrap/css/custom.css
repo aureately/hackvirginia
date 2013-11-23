@@ -1,6 +1,6 @@
 body {
 	font-size: 9pt;
-	background: url('assets/bg.jpg') repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url('../../assets/bg.jpg') repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 
 a:link, a:visited {
@@ -38,7 +38,7 @@ header {
 }
 
 #locator {
-	margin-top: 20%;
+	margin-top: 12%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
@@ -50,12 +50,12 @@ header {
 	text-align: center;
 	width: 70%;
 	margin-top: 10%;
-	margin-bottom: 12%;
+	margin-bottom: 5%;
 }
 
 #okay .btn {
 	background-color: rgb(215,116,40);
-	border-color: rgb(214,144,411);
+	border-color: rgb(226,118,45);
 }
 
 .form-control {
@@ -68,7 +68,7 @@ header {
 }
 
 .mapholder {
-	background: url('assets/mapplaceholder.png');
+	background: url('../../assets/mapplaceholder.png');
 	width: 100%;
 	height: 200px;
 }
@@ -135,4 +135,16 @@ h4 {
 .send {
 	padding-top: 5%;
 	padding-bottom: 3%;
+}
+
+.error {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.error a {
+	margin-top: 2%;
 }
